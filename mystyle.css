@@ -1,0 +1,51 @@
+
+
+body {
+	font-family: Microsoft JhengHei;
+    /* color: #FF00FF; */
+    /* background-color: #F0F0F0; */
+	font-size: 20px;
+}
+#page_list{
+	line-height: 150%;
+	font-weight: bold;
+	/* color: #A3D1D1; */
+}
+
+a.list_link:any-link{
+	/* font-family: 細明體, "Times New Roman", Times, serif; */
+	color: #102B6E;  
+	text-decoration: none;
+	font-size: 120%;
+}
+
+a.list_link:hover {
+	text-decoration: underline;
+}
+
+a.list_link2:any-link{
+	/* font-family: 細明體, "Times New Roman", Times, serif; */
+	color: #6B9DDB;
+	text-decoration: none;
+	font-size: 112%;
+}
+
+a.list_link2:hover {
+	text-decoration: underline;
+}
+
+th.tool_table_title{
+	background-color:  #DB6E00;
+	color: 	#FFF3EE;
+	font-style: italic;
+	text-align: left;
+	font-size: 150%;
+}
+
+td.tool_table_content{
+	color: 	#0E8F84; 
+	font-family: Microsoft JhengHei;
+	font-size: 112%;
+}
+
+h3 {display : inline}
