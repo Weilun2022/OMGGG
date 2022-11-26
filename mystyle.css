@@ -7,7 +7,7 @@ body {
 	font-size: 20px;
 }
 #page_list{
-	line-height: 500%;
+	line-height: 250%;
 	font-weight: bold;
 	/* color: #A3D1D1; */
 }
@@ -27,7 +27,7 @@ a.list_link2:any-link{
 	/* font-family: 細明體, "Times New Roman", Times, serif; */
 	color: #6B9DDB;
 	text-decoration: none;
-	font-size: 108%;
+	font-size: 104%;
 }
 
 a.list_link2:hover {
@@ -45,7 +45,7 @@ th.tool_table_title{
 td.tool_table_content{
 	color: 	#0E8F84; 
 	font-family: Microsoft JhengHei;
-	font-size: 108%;
+	font-size: 104%;
 }
 
 h3 {display : inline}
