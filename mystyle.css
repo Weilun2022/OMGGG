@@ -1,51 +1,92 @@
+@font-face {		 
+  font-family: 'NotoSansTC-Black';
+  src: url('fonts/NotoSansTC-Black.otf') format("woff"),
+         url('fonts/NotoSansTC-Black.ttf') format("truetype"),
+         url('fonts/NotoSansTC-Black.eot') format("embedded-opentype");
+		 
+  font-family: 'NotoSansTC-Bold';
+  src: url('fonts/NotoSansTC-Bold.otf') format("woff"),
+         url('fonts/NotoSansTC-Bold.ttf') format("truetype"),
+         url('fonts/NotoSansTC-Bold.eot') format("embedded-opentype");
+}
 
-
+/* 整體初始設定 */
 body {
-	font-family: Microsoft JhengHei;
-    /* color: #FF00FF; */
-    /* background-color: #F0F0F0; */
+	font-family: "NotoSansTC-Black"; 
 	font-size: 20px;
 }
+
+/* 目錄 */
 #page_list{
 	line-height: 250%;
 	font-weight: bold;
-	/* color: #A3D1D1; */
 }
 
+/* 定義超鏈結 */
 a.list_link:any-link{
-	/* font-family: 細明體, "Times New Roman", Times, serif; */
 	color: #102B6E;  
 	text-decoration: none;
 	font-size: 120%;
 }
 
+/* 定義超鏈結滑鼠移上去時觸發 */
 a.list_link:hover {
 	text-decoration: underline;
 }
 
+/* 表格超鏈結 */
 a.list_link2:any-link{
-	/* font-family: 細明體, "Times New Roman", Times, serif; */
 	color: #6B9DDB;
 	text-decoration: none;
-	font-size: 104%;
+	font-size: 110%;
 }
 
+/* 表格超鏈結滑鼠移上去時觸發 */
 a.list_link2:hover {
 	text-decoration: underline;
 }
 
-th.tool_table_title{
-	background-color:  #DB6E00;
+/* 類別定義表頭 */
+th.tool_table_void_title{
+	font-family: "NotoSansTC-Bold"; 
 	color: 	#FFF3EE;
+	background-color:  #DB6E00;
 	font-style: italic;
 	text-align: left;
 	font-size: 150%;
 }
 
-td.tool_table_content{
-	color: 	#0E8F84; 
-	font-family: Microsoft JhengHei;
-	font-size: 104%;
+/* 類別定義內文 */
+td.tool_table_void_content{
+	font-family: "NotoSansTC-Bold"; 
+	color: 	#0E8F84;
+	font-style: italic;
+	text-align: left;
+	font-size: 110%;
+	line-height: 140%;
 }
 
-h3 {display : inline}
+/* 類別定義內文強調字眼 */
+span.tool_table_void_content_focus{
+	font-size: 110%;
+	font-weight: bold;
+}
+
+
+/* 列表表頭 */
+th.tool_table_tilte{
+	font-family: "NotoSansTC-Bold";
+	color: 	#FFF3EE; 
+	background-color:  #F53D46;
+	font-style: italic;
+	text-align: left;
+	font-size: 150%;
+}
+
+
+/* 列表內文 */
+td.tool_table_content{
+	color: 	#0E8F84; 
+	font-size: 110%;
+	line-height: 250%;
+}
