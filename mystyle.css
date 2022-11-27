@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 
 
-html {
-	box-sizing: border-box;
-}
-
 /* 整體初始設定 */
 body {
-	/* font-family: "NotoSansTC-Black"; */
 	font-family: 'Noto Sans TC', sans-serif;
-	/* font-weight:1500; */
-	font-size: 130%;
-	color: #fff;
-	overflow: hidden;
+	font-size: 20px;
 }
 
 /* 目錄 */
@@ -46,9 +38,7 @@ a.list_link2:hover {
 }
 
 /* 類別定義表頭 */
-th.tool_table_void_title{
-	/* font-family: "NotoSansTC-Bold"; */
-	/* font-family: "NotoSansTC-Bold"; */
+th.tool_table_void_title{ 
 	color: 	#FFF3EE;
 	background-color:  #DB6E00;
 	font-style: italic;
@@ -58,8 +48,6 @@ th.tool_table_void_title{
 
 /* 類別定義內文 */
 td.tool_table_void_content{
-	/* font-family: "NotoSansTC-Bold"; */
-	/* font-family: "NotoSansTC-Bold"; */
 	color: 	#0E8F84;
 	font-style: italic;
 	text-align: left;
@@ -76,8 +64,6 @@ span.tool_table_void_content_focus{
 
 /* 列表表頭 */
 th.tool_table_tilte{
-	/* font-family: "NotoSansTC-Bold"; */
-	/* font-family: "NotoSansTC-Bold"; */
 	color: 	#FFF3EE; 
 	background-color:  #F53D46;
 	font-style: italic;

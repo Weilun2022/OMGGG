@@ -4,26 +4,11 @@
 	<meta charset="utf-8">
 	<meta name=”description” content = "網頁建置中">
 	<title>封閉者的寶可夢(朱/紫)網路資源整理</title>
-	<link rel="stylesheet" href="topmenu.css">
 	<link rel="stylesheet" href="mystyle.css">
-	
 </head>
-
-<body>
-	<div class="nav">
-		<ul class="nav__list">
-			<li class="nav__menu"><a href="home.html">home</a></li>
-			<li class="nav__menu">menu
-				<ul class="nav__menu-lists nav__menu--1-lists">
-					<li class="nav__menu-items"><a class="list_link" href="tool.html" target="viewframe" >Tools</a></li>
-					<li class="nav__menu-items"><a class="list_link" href="resource.html" target="viewframe" >Tips</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	
-	<div class="viewdiv" >
-		<iframe name="viewframe" src="tool.html" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
-	</div>
-</body>
+	<!-- 分割左右視窗 -->
+	<frameset cols=180,* frameborder="0" framespacing="0" border="0">
+	<frame src="list.html" name="left">
+	<frame src="tool.html" name="right">
+	</frameset>
 </html>
